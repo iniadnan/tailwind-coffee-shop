@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="#" />
+    <meta name="keywords" content="#" />
+    <meta name="author" content="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0C0F14" />
+    <title>COFSOP - Detail</title>
+    <!-- ICON -->
+    <link
+      rel="icon"
+      href="../../assets/website/iniadnan.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <!-- TAILWINDCSS -->
+    <link rel="stylesheet" href="../../styles/css/dist/tailwind.css" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- INTERNAL CSS -->
+    <style>
+        .hero {
+            width: calc(100% - 32px);
+        }
+        .modal {
+            height: 100%;
+            width: 100%;
+            max-width: 400px;
+            position: fixed;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        #nav-bottom-buy {
+            width: calc(100% - 16px);
+            max-width: calc(400px - 16px);
+            position: fixed;
+            left: 50%;
+            bottom: 0px;
+            transform: translateX(-50%);
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+  </head>
+  <body class="container-coffee-400px">
+    <!-- HEADER -->
+    <header class="w-full relative pt-16px px-16px">
+        <!-- BUTTON BACK -->
+        <a href="./home.html" class="h-36px w-36px absolute top-10 left-9 flex items-center justify-center bg-color-171d26 rounded-12px">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.2541 4.24106C16.5522 4.53326 16.5793 4.99051 16.3354 5.31272L16.2541 5.40503L9.52658 12L16.2541 18.595C16.5522 18.8872 16.5793 19.3444 16.3354 19.6666L16.2541 19.7589C15.956 20.0511 15.4896 20.0777 15.161 19.8386L15.0668 19.7589L7.7459 12.582C7.44784 12.2898 7.42074 11.8325 7.66461 11.5103L7.7459 11.418L15.0668 4.24106C15.3947 3.91965 15.9262 3.91965 16.2541 4.24106Z" fill="white"/>
+            </svg>
+        </a>
+        <!-- IMAGE -->
+        <img class="w-full h-390px rounded-t-15px object-cover" src="../../assets/article/detail-1.png" alt="Detail">
+        <!-- FLOAT SECTION -->
+        <div class="h-126px hero bg-g-mobile-cart flex items-center justify-between absolute transform -translate-y-1/2 rounded-40px py-28px px-34px z-10">
+            <div>
+                <h1 class="font-lexend text-20px text-white leading-25px mb-8px">Cappucino</h1>
+                <p class="text-9px text-white leading-12.28px mb-12px">With Oat Milk</p>
+                <div class="flex items-center">
+                    <div class="flex items-center">
+                        <svg class="mr-4px" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.73098 0.545096C5.84102 0.322123 6.15898 0.322122 6.26902 0.545096L7.69355 3.43152C7.73725 3.52006 7.82172 3.58143 7.91944 3.59563L11.1048 4.05849C11.3509 4.09424 11.4491 4.39664 11.2711 4.5702L8.96611 6.81696C8.8954 6.88588 8.86314 6.98518 8.87983 7.0825L9.42395 10.255C9.46599 10.5001 9.20876 10.6869 8.98867 10.5712L6.1396 9.07339C6.05221 9.02745 5.94779 9.02745 5.8604 9.07339L3.01133 10.5712C2.79124 10.6869 2.53401 10.5001 2.57605 10.255L3.12017 7.0825C3.13686 6.98518 3.1046 6.88588 3.03389 6.81696L0.728946 4.5702C0.550891 4.39664 0.649144 4.09424 0.89521 4.05849L4.08056 3.59563C4.17828 3.58143 4.26275 3.52006 4.30645 3.43152L5.73098 0.545096Z" fill="#D17842"/>
+                        </svg>
+                        <svg class="mr-4px" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.73098 0.545096C5.84102 0.322123 6.15898 0.322122 6.26902 0.545096L7.69355 3.43152C7.73725 3.52006 7.82172 3.58143 7.91944 3.59563L11.1048 4.05849C11.3509 4.09424 11.4491 4.39664 11.2711 4.5702L8.96611 6.81696C8.8954 6.88588 8.86314 6.98518 8.87983 7.0825L9.42395 10.255C9.46599 10.5001 9.20876 10.6869 8.98867 10.5712L6.1396 9.07339C6.05221 9.02745 5.94779 9.02745 5.8604 9.07339L3.01133 10.5712C2.79124 10.6869 2.53401 10.5001 2.57605 10.255L3.12017 7.0825C3.13686 6.98518 3.1046 6.88588 3.03389 6.81696L0.728946 4.5702C0.550891 4.39664 0.649144 4.09424 0.89521 4.05849L4.08056 3.59563C4.17828 3.58143 4.26275 3.52006 4.30645 3.43152L5.73098 0.545096Z" fill="#D17842"/>
+                        </svg>
+                        <svg class="mr-4px" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.73098 0.545096C5.84102 0.322123 6.15898 0.322122 6.26902 0.545096L7.69355 3.43152C7.73725 3.52006 7.82172 3.58143 7.91944 3.59563L11.1048 4.05849C11.3509 4.09424 11.4491 4.39664 11.2711 4.5702L8.96611 6.81696C8.8954 6.88588 8.86314 6.98518 8.87983 7.0825L9.42395 10.255C9.46599 10.5001 9.20876 10.6869 8.98867 10.5712L6.1396 9.07339C6.05221 9.02745 5.94779 9.02745 5.8604 9.07339L3.01133 10.5712C2.79124 10.6869 2.53401 10.5001 2.57605 10.255L3.12017 7.0825C3.13686 6.98518 3.1046 6.88588 3.03389 6.81696L0.728946 4.5702C0.550891 4.39664 0.649144 4.09424 0.89521 4.05849L4.08056 3.59563C4.17828 3.58143 4.26275 3.52006 4.30645 3.43152L5.73098 0.545096Z" fill="#D17842"/>
+                        </svg>
+                        <svg class="mr-4px" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.73098 0.545096C5.84102 0.322123 6.15898 0.322122 6.26902 0.545096L7.69355 3.43152C7.73725 3.52006 7.82172 3.58143 7.91944 3.59563L11.1048 4.05849C11.3509 4.09424 11.4491 4.39664 11.2711 4.5702L8.96611 6.81696C8.8954 6.88588 8.86314 6.98518 8.87983 7.0825L9.42395 10.255C9.46599 10.5001 9.20876 10.6869 8.98867 10.5712L6.1396 9.07339C6.05221 9.02745 5.94779 9.02745 5.8604 9.07339L3.01133 10.5712C2.79124 10.6869 2.53401 10.5001 2.57605 10.255L3.12017 7.0825C3.13686 6.98518 3.1046 6.88588 3.03389 6.81696L0.728946 4.5702C0.550891 4.39664 0.649144 4.09424 0.89521 4.05849L4.08056 3.59563C4.17828 3.58143 4.26275 3.52006 4.30645 3.43152L5.73098 0.545096Z" fill="#D17842"/>
+                        </svg>
+                        <svg class="mr-4px" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.73098 0.545096C5.84102 0.322123 6.15898 0.322122 6.26902 0.545096L7.69355 3.43152C7.73725 3.52006 7.82172 3.58143 7.91944 3.59563L11.1048 4.05849C11.3509 4.09424 11.4491 4.39664 11.2711 4.5702L8.96611 6.81696C8.8954 6.88588 8.86314 6.98518 8.87983 7.0825L9.42395 10.255C9.46599 10.5001 9.20876 10.6869 8.98867 10.5712L6.1396 9.07339C6.05221 9.02745 5.94779 9.02745 5.8604 9.07339L3.01133 10.5712C2.79124 10.6869 2.53401 10.5001 2.57605 10.255L3.12017 7.0825C3.13686 6.98518 3.1046 6.88588 3.03389 6.81696L0.728946 4.5702C0.550891 4.39664 0.649144 4.09424 0.89521 4.05849L4.08056 3.59563C4.17828 3.58143 4.26275 3.52006 4.30645 3.43152L5.73098 0.545096Z" fill="url(#paint0_linear)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear" x1="6" y1="0" x2="6.5" y2="0" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#D17842"/>
+                            <stop offset="1" stop-color="#D17842" stop-opacity="0"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="text-12px text-white leading-22px">4.5</span>
+                </div>
+            </div>
+            <div>
+                <strong class="block font-lexend font-normal text-28px text-color-d17842 leading-34px mb-12px">$4.20</strong>
+                <div class="flex items-center">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Iconly/Light-Outline/Location">
+                        <g id="Location">
+                        <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M8.167 5.66667C7.52367 5.66667 7.00034 6.19001 7.00034 6.83401C7.00034 7.47734 7.52367 8.00001 8.167 8.00001C8.81034 8.00001 9.33367 7.47734 9.33367 6.83401C9.33367 6.19001 8.81034 5.66667 8.167 5.66667ZM8.167 9.00001C6.97234 9.00001 6.00034 8.02867 6.00034 6.83401C6.00034 5.63867 6.97234 4.66667 8.167 4.66667C9.36167 4.66667 10.3337 5.63867 10.3337 6.83401C10.3337 8.02867 9.36167 9.00001 8.167 9.00001Z" fill="white"/>
+                        <g id="Group 5">
+                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="12" height="14">
+                        <path id="Clip 4" fill-rule="evenodd" clip-rule="evenodd" d="M2.66666 1.33334H13.6663V14.3333H2.66666V1.33334Z" fill="white"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                        <path id="Fill 3" fill-rule="evenodd" clip-rule="evenodd" d="M8.16632 2.33334C5.68499 2.33334 3.66632 4.37134 3.66632 6.87534C3.66632 10.0613 7.41565 13.1653 8.16632 13.3307C8.91699 13.1647 12.6663 10.0607 12.6663 6.87534C12.6663 4.37134 10.6477 2.33334 8.16632 2.33334ZM8.16632 14.3333C6.97032 14.3333 2.66632 10.632 2.66632 6.87534C2.66632 3.81934 5.13365 1.33334 8.16632 1.33334C11.199 1.33334 13.6663 3.81934 13.6663 6.87534C13.6663 10.632 9.36232 14.3333 8.16632 14.3333Z" fill="white"/>
+                        </g>
+                        </g>
+                        </g>
+                        </g>
+                    </svg>
+                    <h6 class="text-12px text-white leading-22px ml-1.5">Hearone Caffe</h6>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <div class="w-full flex flex-wrap pt-91px pb-111px px-24px">
+            <!-- SIZE -->
+            <div class="w-full mb-31px">
+                <h3 class="font-semibold text-12px text-white leading-16px mb-16px">Size</h3>
+                <div class="w-full grid grid-flow-col grid-cols-3 gap-x-5 justify-between">
+                    <button type="button" class="border border-color-d17842 bg-color-0c0f14 h-8 flex items-center justify-center font-semibold text-12px text-white leading-16px rounded-15px">S</button>
+                    <button type="button" class="h-8 flex items-center justify-center bg-color-435470-40 font-semibold text-12px text-white leading-16px rounded-15px">M</button>
+                    <button type="button" class="h-8 flex items-center justify-center bg-color-435470-40 font-semibold text-12px text-white leading-16px rounded-15px">L</button>
+                </div>
+            </div>
+            <!-- DESCRIPTION -->
+            <div class="w-full">
+                <h3 class="font-semibold text-12px text-white leading-16px mb-16px">Description</h3>
+                <p class="text-12px text-white leading-22px">cappuccino is a typical Italian drink made from espresso and milk. But other references also tell of the origin of the cappuccino from the coffee beans of the Turkish soldiers who were left behind after the war led by <button type="button" class="text-color-d17842">.... Read More</button></p>
+            </div>
+        </div>
+    </main>
+    <!-- DETAIL BUY -->
+    <div id="detail-buy" class="hidden modal flex items-end bg-color-000000-50 z-50 px-8px pb-8px">
+        <div class="h-472px w-full relative bg-white rounded-t-40px pt-65px px-16px">
+            <!-- IMAGE -->
+            <img class="h-20 w-20 absolute left-1/2 -top-10 transform -translate-x-1/2 object-cover rounded-15px" src="../../assets/article/detail-1.png" alt="Detail" style="
+            filter: drop-shadow(0px 4px 20px rgba(9, 3, 44, 0.2));">
+            <!-- BUTTON CLOSE MODAL -->
+            <button id="close-modal-detail" type="button" class="absolute top-5 right-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.60247 15.1367C9.41047 15.1367 9.21847 15.0637 9.07247 14.9167C8.77947 14.6237 8.77947 14.1497 9.07247 13.8567L13.8645 9.0647C14.1575 8.7717 14.6315 8.7717 14.9245 9.0647C15.2175 9.3577 15.2175 9.8317 14.9245 10.1247L10.1325 14.9167C9.98647 15.0637 9.79447 15.1367 9.60247 15.1367Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3965 15.1396C14.2045 15.1396 14.0125 15.0666 13.8665 14.9196L9.07052 10.1226C8.77752 9.8296 8.77752 9.3556 9.07052 9.0626C9.36452 8.7696 9.83852 8.7696 10.1305 9.0626L14.9265 13.8596C15.2195 14.1526 15.2195 14.6266 14.9265 14.9196C14.7805 15.0666 14.5875 15.1396 14.3965 15.1396Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.665 3.5C5.135 3.5 3.5 5.233 3.5 7.916V16.084C3.5 18.767 5.135 20.5 7.665 20.5H16.333C18.864 20.5 20.5 18.767 20.5 16.084V7.916C20.5 5.233 18.864 3.5 16.334 3.5H7.665ZM16.333 22H7.665C4.276 22 2 19.622 2 16.084V7.916C2 4.378 4.276 2 7.665 2H16.334C19.723 2 22 4.378 22 7.916V16.084C22 19.622 19.723 22 16.333 22Z" fill="black"/>
+                </svg>
+            </button>
+            <div class="flex items-center justify-between pb-24px border-b-0-5 border-color-dedede">
+                <h3 class="text-12px text-black leading-22px">How many Coffee ?</h3>
+                <div class="flex items-center">
+                    <button type="button">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10C0 4.47715 4.47715 0 10 0H15C20.5228 0 25 4.47715 25 10V15C25 20.5228 20.5228 25 15 25H10C4.47715 25 0 20.5228 0 15V10Z" fill="#D17842" fill-opacity="0.5"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5624 13.9368H9.43765C8.92007 13.9368 8.5 13.5167 8.5 12.9992C8.5 12.4816 8.92007 12.0615 9.43765 12.0615H15.5624C16.0799 12.0615 16.5 12.4816 16.5 12.9992C16.5 13.5167 16.0799 13.9368 15.5624 13.9368Z" fill="white"/>
+                        </svg>
+                    </button>
+                    <input class="w-8 font-lexend text-20px text-black text-center leading-25px" type="number" name="qty" id="qty" value="1">
+                    <button type="button">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10C0 4.47715 4.47715 0 10 0H15C20.5228 0 25 4.47715 25 10V15C25 20.5228 20.5228 25 15 25H10C4.47715 25 0 20.5228 0 15V10Z" fill="#D17842"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5624 13.9368H9.43765C8.92007 13.9368 8.5 13.5167 8.5 12.9992C8.5 12.4816 8.92007 12.0615 9.43765 12.0615H15.5624C16.0799 12.0615 16.5 12.4816 16.5 12.9992C16.5 13.5167 16.0799 13.9368 15.5624 13.9368Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5003 17C11.9827 17 11.5626 16.5799 11.5626 16.0624V9.9364C11.5626 9.41881 11.9827 8.99875 12.5003 8.99875C13.0178 8.99875 13.4379 9.41881 13.4379 9.9364V16.0624C13.4379 16.5799 13.0178 17 12.5003 17Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="flex items-center justify-between py-24px">
+                <h3 class="text-12px text-black leading-22px">Total Price</h3>
+                <strong class="font-bold text-32px text-black leading-48px">$4.20</strong>
+            </div>
+            <div class="h-76px w-full bg-color-f5f5f5 rounded-15px">
+                <div class="flex items-center justify-between pt-12px pl-20px pr-12px mb-4px">
+                    <h3 class="text-12px text-black leading-22px">Address:</h3>
+                    <button type="button">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Iconly/Light-Outline/Edit">
+                            <g id="Edit">
+                            <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M13.8339 14.6265H8.99854C8.72254 14.6265 8.49854 14.4025 8.49854 14.1265C8.49854 13.8505 8.72254 13.6265 8.99854 13.6265H13.8339C14.1099 13.6265 14.3339 13.8505 14.3339 14.1265C14.3339 14.4025 14.1099 14.6265 13.8339 14.6265Z" fill="black"/>
+                            <g id="Group 5">
+                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="2" width="12" height="13">
+                            <path id="Clip 4" fill-rule="evenodd" clip-rule="evenodd" d="M1.33356 2.00011H12.7873V14.6265H1.33356V2.00011Z" fill="white"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                            <path id="Fill 3" fill-rule="evenodd" clip-rule="evenodd" d="M8.74045 3.34453L2.46378 11.1945C2.34978 11.3372 2.30778 11.5212 2.34978 11.6979L2.80378 13.6212L4.82978 13.5959C5.02245 13.5939 5.20045 13.5079 5.31845 13.3612C7.46311 10.6779 11.5518 5.56187 11.6678 5.41187C11.7771 5.23453 11.8198 4.98387 11.7624 4.74254C11.7038 4.4952 11.5498 4.2852 11.3278 4.1512C11.2804 4.11854 10.1571 3.24653 10.1224 3.2192C9.69978 2.88053 9.08311 2.9392 8.74045 3.34453ZM2.40907 14.6265C2.17774 14.6265 1.97641 14.4679 1.92241 14.2419L1.37641 11.9279C1.26374 11.4485 1.37574 10.9539 1.68307 10.5699L7.96307 2.7152C7.96574 2.71254 7.96774 2.7092 7.97041 2.70654C8.65907 1.8832 9.90441 1.76187 10.7444 2.43587C10.7777 2.46187 11.8931 3.32854 11.8931 3.32854C12.2984 3.56987 12.6151 4.0012 12.7351 4.51187C12.8544 5.0172 12.7677 5.53854 12.4897 5.9792C12.4691 6.01187 12.4511 6.03987 6.09907 13.9865C5.79307 14.3679 5.33441 14.5899 4.84174 14.5959L2.41574 14.6265H2.40907Z" fill="black"/>
+                            </g>
+                            </g>
+                            <path id="Fill 6" fill-rule="evenodd" clip-rule="evenodd" d="M10.8156 7.78987C10.7089 7.78987 10.6023 7.75587 10.5109 7.68653L6.87626 4.89453C6.65759 4.72653 6.61626 4.4132 6.78426 4.1932C6.95293 3.97453 7.26626 3.93387 7.48559 4.10187L11.1209 6.8932C11.3396 7.0612 11.3809 7.3752 11.2123 7.59453C11.1143 7.72253 10.9656 7.78987 10.8156 7.78987Z" fill="black"/>
+                            </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <textarea class="w-full bg-color-f5f5f5 text-9px text-color-000000-50 leading-12.28px pl-20px pr-28px" name="write" id="write">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh eget ac sed in sodales. A, amet nulla feugiat accumsan. Velit sagittis massa.</textarea>
+            </div>
+            <div class="pt-24px">
+                <button id="buy-now-modal" type="button" class="h-55px w-full flex items-center justify-center bg-color-d17842 font-lexend text-20px leading-25px mb-24px rounded-15px">Buy Now</button>
+                <a href="./cart.html" class="h-55px w-full flex items-center justify-center font-lexend text-20px leading-25px text-black text-center border-0-5 border-color-d17842 rounded-15px">Put In Cart</a>
+            </div>
+        </div>
+    </div>
+    <!-- CONGRATULATION -->
+    <div id="detail-congratulation" class="hidden modal flex items-end bg-color-000000-50 z-50 px-8px pb-8px">
+        <div class="h-472px w-full relative bg-white rounded-t-40px pt-16 px-16px">
+            <div class="w-full mb-28px">
+                <svg class="mx-auto" width="139" height="108" viewBox="0 0 139 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                    <path d="M115.099 32.4029C116.737 32.4032 118.287 31.6598 119.312 30.3821C120.337 29.1043 120.727 27.4302 120.371 25.8311L118.37 16.8311C117.832 14.353 115.633 12.5895 113.098 12.6029H112.018L111.139 8.83193C110.586 6.64569 108.738 5.03006 106.497 4.77473L63.8783 0.0353288C60.9735 -0.297032 58.3352 1.75202 57.9383 4.64873L56.8439 12.6029H55.9007C53.3657 12.5904 51.1677 14.3537 50.6303 16.8311L48.6287 25.8311C48.2733 27.4299 48.6627 29.1036 49.6874 30.3813C50.7121 31.659 52.2613 32.4027 53.8991 32.4029H54.0197L55.0511 46.9109C53.2979 47.3224 52.1228 48.9715 52.3061 50.7629L55.5461 83.1629C55.68 84.5248 56.5773 85.6916 57.8591 86.1707L58.9391 101.307C59.2148 105.073 62.3449 107.991 66.1211 108.003H102.877C106.653 107.991 109.783 105.074 110.059 101.309L111.139 86.1707C112.421 85.692 113.319 84.5249 113.452 83.1629L116.692 50.7629C116.874 48.9716 115.699 47.3233 113.945 46.9127L114.977 32.4029H115.099ZM61.5005 5.14913C61.6304 4.18245 62.5119 3.49885 63.4805 3.61373L106.099 8.35133C106.836 8.43378 107.447 8.95969 107.638 9.67613L108.319 12.6029H60.4781L61.5005 5.14913ZM52.5005 28.1297C52.1563 27.7049 52.0238 27.1466 52.1405 26.6123L54.1421 17.6123C54.3216 16.786 55.0551 16.1981 55.9007 16.2029H113.098C113.942 16.199 114.675 16.7866 114.854 17.6123L116.856 26.6123C116.974 27.1453 116.845 27.7032 116.503 28.1291C116.161 28.555 115.645 28.8028 115.099 28.8029H53.8991C53.3539 28.8025 52.8382 28.5549 52.4969 28.1297H52.5005ZM102.877 104.403H66.1211C64.2357 104.393 62.6754 102.934 62.5391 101.053L61.4843 86.4029H65.7791L66.4991 98.2127C66.5572 99.1637 67.3464 99.9047 68.2991 99.9029H68.4107C68.8881 99.8742 69.3345 99.6567 69.6512 99.2984C69.968 98.9401 70.1292 98.4705 70.0991 97.9931L69.3791 86.4029H107.514L106.459 101.055C106.322 102.935 104.762 104.393 102.877 104.403ZM109.879 82.8029V82.8893V82.8029H66.3191L64.6991 56.1971C64.639 55.203 63.7843 54.4459 62.7902 54.506C61.7961 54.5662 61.039 55.4208 61.0991 56.4149L62.6975 82.8029H59.1281L55.8881 50.4029H113.119L109.879 82.8029ZM110.353 46.8029H58.6547L57.6323 32.4029H111.366L110.353 46.8029Z" fill="#D17842"/>
+                    <circle cx="124.5" cy="5" r="1" fill="#D17842"/>
+                    <circle cx="45.5" cy="86" r="1" fill="#D17842"/>
+                    <circle cx="116.25" cy="102.75" r="0.75" fill="#D17842"/>
+                    <circle cx="135" cy="65.5" r="1.5" fill="#D17842"/>
+                    </g>
+                    <path d="M14.2894 41L30.5 41" stroke="#D17842" stroke-width="3.5" stroke-linecap="round"/>
+                    <path d="M2.5 54L18.7105 54" stroke="#D17842" stroke-width="3.5" stroke-linecap="round"/>
+                    <path d="M14.2894 67L30.5 67" stroke="#D17842" stroke-width="3.5" stroke-linecap="round"/>
+                    <circle cx="16" cy="54.5" r="1.5" fill="#D17842"/>
+                    <defs>
+                    <clipPath id="clip0">
+                    <rect width="108" height="108" fill="white" transform="translate(30.5)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="w-full text-center">
+                <h4 class="font-lexend text-24px text-black leading-30px mb-12px">Congratulations</h4>
+                <p class="text-12px text-color-000000-50 leading-22px">your order has been sent, let's request<br />
+                    our other menu</p>
+            </div>
+            <div class="pt-24px">
+                <a href="./category.html" class="h-55px w-full flex items-center justify-center bg-color-d17842 font-lexend text-20px leading-25px mb-24px rounded-15px">Back To  The Menu</a>
+                <a href="./cart.html" class="h-55px w-full flex items-center justify-center font-lexend text-20px leading-25px text-black text-center border-0-5 border-color-d17842 rounded-15px">View Your Order</a>
+            </div>
+        </div>
+    </div>
+    <!-- BUY NOW -->
+    <nav id="nav-bottom-buy">
+        <div class="w-full px-16px pb-24px">
+            <button class="h-55px w-full flex items-center justify-center bg-color-d17842 font-lexend text-20px leading 25px text-white rounded-15px">Buy Now</button>
+        </div>
+    </nav>
+  </body>
+  <!-- DETAIL JS -->
+  <script src="../../styles/js/detail.js"></script>
+</html>

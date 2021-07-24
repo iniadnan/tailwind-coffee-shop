@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="#" />
+    <meta name="keywords" content="#" />
+    <meta name="author" content="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0C0F14" />
+    <title>COFSOP - Cart</title>
+    <!-- ICON -->
+    <link rel="icon" href="../../assets/website/iniadnan.png" type="image/gif" sizes="16x16" />
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="../../styles/swiper/swiper-bundle.min.css" />
+    <!-- TAILWINDCSS -->
+    <link rel="stylesheet" href="../../styles/css/dist/tailwind.css" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- INTERNAL CSS -->
+    <style>
+    </style>
+</head>
+
+<body class="container-coffee-400px">
+    <!-- HEADER -->
+    <header>
+        <div class="w-full pt-24px pb-8px px-24px">
+            <!-- CONTAINER MY CART -->
+            <div class="w-full bg-color-435470-40 pt-16px px-20px rounded-15px">
+                <!-- TITLE -->
+                <div class="w-full relative mb-28px">
+                    <h1 class="font-bold text-24px text-white leading-32px text-center">My Cart</h1>
+                    <button type="button" class="absolute top-0 right-0">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Iconly/Light-Outline/Delete">
+                                <g id="Delete">
+                                    <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12.2466 22C10.8916 22 9.5706 21.985 8.2636 21.958C6.5916 21.925 5.4346 20.841 5.2456 19.129C4.9306 16.289 4.3916 9.595 4.3866 9.528C4.3526 9.115 4.6606 8.753 5.0736 8.72C5.4806 8.709 5.8486 8.995 5.8816 9.407C5.8866 9.475 6.4246 16.146 6.7366 18.964C6.8436 19.937 7.3686 20.439 8.2946 20.458C10.7946 20.511 13.3456 20.514 16.0956 20.464C17.0796 20.445 17.6116 19.953 17.7216 18.957C18.0316 16.163 18.5716 9.475 18.5776 9.407C18.6106 8.995 18.9756 8.707 19.3846 8.72C19.7976 8.754 20.1056 9.115 20.0726 9.528C20.0666 9.596 19.5246 16.307 19.2126 19.122C19.0186 20.869 17.8646 21.932 16.1226 21.964C14.7896 21.987 13.5036 22 12.2466 22Z"
+                                        fill="white" fill-opacity="0.5" />
+                                    <path id="Fill 3" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.708 6.98932H3.75C3.336 6.98932 3 6.65332 3 6.23932C3 5.82532 3.336 5.48932 3.75 5.48932H20.708C21.122 5.48932 21.458 5.82532 21.458 6.23932C21.458 6.65332 21.122 6.98932 20.708 6.98932Z"
+                                        fill="white" fill-opacity="0.5" />
+                                    <path id="Fill 5" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17.4404 6.98931C16.3024 6.98931 15.3144 6.17831 15.0904 5.06231L14.8474 3.84631C14.7964 3.66131 14.5854 3.50031 14.3454 3.50031H10.1124C9.8724 3.50031 9.6614 3.66131 9.60039 3.89231L9.36739 5.06231C9.14439 6.17831 8.1554 6.98931 7.0174 6.98931C6.6034 6.98931 6.2674 6.65331 6.2674 6.23931C6.2674 5.8253 6.6034 5.48931 7.0174 5.48931C7.4434 5.48931 7.8134 5.18531 7.8974 4.76731L8.1404 3.55131C8.3874 2.61931 9.1944 2.00031 10.1124 2.00031H14.3454C15.2634 2.00031 16.0704 2.61931 16.3074 3.50631L16.5614 4.76731C16.6444 5.18531 17.0144 5.48931 17.4404 5.48931C17.8544 5.48931 18.1904 5.8253 18.1904 6.23931C18.1904 6.65331 17.8544 6.98931 17.4404 6.98931Z"
+                                        fill="white" fill-opacity="0.5" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <!-- LIST CART -->
+                <section class="w-full mb-18px">
+                    <div class="flex items-center justify-between mb-32px">
+                        <div class="w-8/12 flex items-center">
+                            <img class="h-50px w-50px rounded-15px mr-16px"
+                                src="../../assets/article/index-popular-1.png" alt="#">
+                            <div>
+                                <h2 class="font-lexend font-normal text-20px text-white leading-25px mb-4px">Cappucinno
+                                </h2>
+                                <p class="font-semibold text-9px text-color-ffffff-50 leading-12.28px">With Chocolate
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-4/12 flex items-center justify-end">
+                            <strong class="font-lexend font-normal text-20px text-white leading-25px">$3.20</strong>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mb-32px">
+                        <div class="w-8/12 flex items-center">
+                            <img class="h-50px w-50px rounded-15px mr-16px"
+                                src="../../assets/article/index-popular-3.png" alt="#">
+                            <div>
+                                <h2 class="font-lexend font-normal text-20px text-white leading-25px mb-4px">Cappucinno
+                                </h2>
+                                <p class="font-semibold text-9px text-color-ffffff-50 leading-12.28px">With Oak Milk</p>
+                            </div>
+                        </div>
+                        <div class="w-4/12 flex items-center justify-end">
+                            <strong class="font-lexend font-normal text-20px text-white leading-25px">$4.20</strong>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mb-32px">
+                        <div class="w-8/12 flex items-center">
+                            <img class="h-50px w-50px rounded-15px mr-16px"
+                                src="../../assets/article/index-popular-2.png" alt="#">
+                            <div>
+                                <h2 class="font-lexend font-normal text-20px text-white leading-25px mb-4px">Late Art
+                                </h2>
+                                <p class="font-semibold text-9px text-color-ffffff-50 leading-12.28px">With Marshmakkows
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-4/12 flex items-center justify-end">
+                            <strong class="font-lexend font-normal text-20px text-white leading-25px">$4.40</strong>
+                        </div>
+                    </div>
+                </section>
+                <!-- ARROW BOTTOM -->
+                <button type="button" class="w-full inline-block -mt-4">
+                    <svg class="mx-auto" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
+                            fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <!-- BUY NOW -->
+            <button type="button"
+                class="h-55px w-full bg-color-d17842 font-lexend text-20px leading-25px text-center rounded-15px mt-32px">Buy
+                Now</button>
+        </div>
+    </header>
+    <!-- ADD ITEM -->
+    <main>
+        <div class="w-full pt-52px pb-112px">
+            <div class="mb-20px px-24px">
+                <h3 class="font-lexend text-20px text-white leading-25px">Add Item</h3>
+            </div>
+            <div class="w-full pl-20px">
+                <div id="swiper-add-item" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <a href="./detail.html" class="swiper-slide relative h-88px w-20">
+                            <img class="h-20 w-20 object-cover rounded-15px"
+                                src="../../assets/article/index-popular-1.png" alt="#">
+                            <button type="button"
+                                class="h-25px w-25px absolute -right-1 bottom-0 flex items-center justify-center bg-color-d17842 rounded-10px z-10">
+                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.56235 5.93682H1.43765C0.920066 5.93682 0.5 5.51675 0.5 4.99917C0.5 4.48159 0.920066 4.06152 1.43765 4.06152H7.56235C8.07993 4.06152 8.5 4.48159 8.5 4.99917C8.5 5.51675 8.07993 5.93682 7.56235 5.93682Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.50027 9.00003C3.98269 9.00003 3.56262 8.57996 3.56262 8.06238V1.93643C3.56262 1.41884 3.98269 0.998779 4.50027 0.998779C5.01785 0.998779 5.43792 1.41884 5.43792 1.93643V8.06238C5.43792 8.57996 5.01785 9.00003 4.50027 9.00003Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </a>
+                        <a href="./detail.html" class="swiper-slide relative h-88px w-20">
+                            <img class="h-20 w-20 object-cover rounded-15px"
+                                src="../../assets/article/add-item-1.png" alt="#">
+                            <button type="button"
+                                class="h-25px w-25px absolute -right-1 bottom-0 flex items-center justify-center bg-color-d17842 rounded-10px z-10">
+                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.56235 5.93682H1.43765C0.920066 5.93682 0.5 5.51675 0.5 4.99917C0.5 4.48159 0.920066 4.06152 1.43765 4.06152H7.56235C8.07993 4.06152 8.5 4.48159 8.5 4.99917C8.5 5.51675 8.07993 5.93682 7.56235 5.93682Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.50027 9.00003C3.98269 9.00003 3.56262 8.57996 3.56262 8.06238V1.93643C3.56262 1.41884 3.98269 0.998779 4.50027 0.998779C5.01785 0.998779 5.43792 1.41884 5.43792 1.93643V8.06238C5.43792 8.57996 5.01785 9.00003 4.50027 9.00003Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </a>
+                        <a href="./detail.html" class="swiper-slide relative h-88px w-20">
+                            <img class="h-20 w-20 object-cover rounded-15px"
+                                src="../../assets/article/add-item-2.png" alt="#">
+                            <button type="button"
+                                class="h-25px w-25px absolute -right-1 bottom-0 flex items-center justify-center bg-color-d17842 rounded-10px z-10">
+                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.56235 5.93682H1.43765C0.920066 5.93682 0.5 5.51675 0.5 4.99917C0.5 4.48159 0.920066 4.06152 1.43765 4.06152H7.56235C8.07993 4.06152 8.5 4.48159 8.5 4.99917C8.5 5.51675 8.07993 5.93682 7.56235 5.93682Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.50027 9.00003C3.98269 9.00003 3.56262 8.57996 3.56262 8.06238V1.93643C3.56262 1.41884 3.98269 0.998779 4.50027 0.998779C5.01785 0.998779 5.43792 1.41884 5.43792 1.93643V8.06238C5.43792 8.57996 5.01785 9.00003 4.50027 9.00003Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </a>
+                        <a href="./detail.html" class="swiper-slide relative h-88px w-20">
+                            <img class="h-20 w-20 object-cover rounded-15px"
+                                src="../../assets/article/add-item-3.png" alt="#">
+                            <button type="button"
+                                class="h-25px w-25px absolute -right-1 bottom-0 flex items-center justify-center bg-color-d17842 rounded-10px z-10">
+                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.56235 5.93682H1.43765C0.920066 5.93682 0.5 5.51675 0.5 4.99917C0.5 4.48159 0.920066 4.06152 1.43765 4.06152H7.56235C8.07993 4.06152 8.5 4.48159 8.5 4.99917C8.5 5.51675 8.07993 5.93682 7.56235 5.93682Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.50027 9.00003C3.98269 9.00003 3.56262 8.57996 3.56262 8.06238V1.93643C3.56262 1.41884 3.98269 0.998779 4.50027 0.998779C5.01785 0.998779 5.43792 1.41884 5.43792 1.93643V8.06238C5.43792 8.57996 5.01785 9.00003 4.50027 9.00003Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </a>
+                        <a href="./detail.html" class="swiper-slide relative h-88px w-20">
+                            <img class="h-20 w-20 object-cover rounded-15px"
+                                src="../../assets/article/index-popular-2.png" alt="#">
+                            <button type="button"
+                                class="h-25px w-25px absolute -right-1 bottom-0 flex items-center justify-center bg-color-d17842 rounded-10px z-10">
+                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.56235 5.93682H1.43765C0.920066 5.93682 0.5 5.51675 0.5 4.99917C0.5 4.48159 0.920066 4.06152 1.43765 4.06152H7.56235C8.07993 4.06152 8.5 4.48159 8.5 4.99917C8.5 5.51675 8.07993 5.93682 7.56235 5.93682Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.50027 9.00003C3.98269 9.00003 3.56262 8.57996 3.56262 8.06238V1.93643C3.56262 1.41884 3.98269 0.998779 4.50027 0.998779C5.01785 0.998779 5.43792 1.41884 5.43792 1.93643V8.06238C5.43792 8.57996 5.01785 9.00003 4.50027 9.00003Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </a>
+                        <a href="./detail.html" class="swiper-slide relative h-88px w-20">
+                            <img class="h-20 w-20 object-cover rounded-15px"
+                                src="../../assets/article/index-popular-3.png" alt="#">
+                            <button type="button"
+                                class="h-25px w-25px absolute -right-1 bottom-0 flex items-center justify-center bg-color-d17842 rounded-10px z-10">
+                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.56235 5.93682H1.43765C0.920066 5.93682 0.5 5.51675 0.5 4.99917C0.5 4.48159 0.920066 4.06152 1.43765 4.06152H7.56235C8.07993 4.06152 8.5 4.48159 8.5 4.99917C8.5 5.51675 8.07993 5.93682 7.56235 5.93682Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.50027 9.00003C3.98269 9.00003 3.56262 8.57996 3.56262 8.06238V1.93643C3.56262 1.41884 3.98269 0.998779 4.50027 0.998779C5.01785 0.998779 5.43792 1.41884 5.43792 1.93643V8.06238C5.43792 8.57996 5.01785 9.00003 4.50027 9.00003Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- NAV BOTTOM -->
+    <nav id="nav-bottom">
+        <div class="h-full w-full flex items-center justify-between px-20px">
+            <a href="./home.html" class="w-1/4 text-9px text-center">
+                <svg class="mb-4px mx-auto" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="21" height="22">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 1.00024H22.9998V22.5052H2.5V1.00024Z" fill="white"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2168 15.2914C15.4208 15.2914 16.4008 16.2644 16.4008 17.4604V20.5364C16.4008 20.7934 16.6068 20.9994 16.8708 21.0054H18.7768C20.2788 21.0054 21.4998 19.7994 21.4998 18.3174V9.59337C21.4928 9.08337 21.2498 8.60337 20.8328 8.28437L14.2398 3.02637C13.3548 2.32537 12.1168 2.32537 11.2288 3.02837L4.6808 8.28237C4.2478 8.61137 4.0048 9.09137 3.9998 9.61037V18.3174C3.9998 19.7994 5.2208 21.0054 6.7228 21.0054H8.6468C8.9178 21.0054 9.1378 20.7904 9.1378 20.5264C9.1378 20.4684 9.1448 20.4104 9.1568 20.3554V17.4604C9.1568 16.2714 10.1308 15.2994 11.3258 15.2914H14.2168ZM18.7768 22.5054H16.8528C15.7508 22.4794 14.9008 21.6144 14.9008 20.5364V17.4604C14.9008 17.0914 14.5938 16.7914 14.2168 16.7914H11.3308C10.9618 16.7934 10.6568 17.0944 10.6568 17.4604V20.5264C10.6568 20.6014 10.6468 20.6734 10.6258 20.7414C10.5178 21.7314 9.6718 22.5054 8.6468 22.5054H6.7228C4.3938 22.5054 2.4998 20.6264 2.4998 18.3174V9.60337C2.5098 8.60937 2.9678 7.69937 3.7588 7.10037L10.2938 1.85537C11.7328 0.715372 13.7378 0.715372 15.1738 1.85337L21.7558 7.10337C22.5288 7.69237 22.9868 8.60037 22.9998 9.58237V18.3174C22.9998 20.6264 21.1058 22.5054 18.7768 22.5054Z" fill="white" fill-opacity="0.5"/>
+                  </g>
+                </svg>
+                <span class="leading-12px">Home</span>
+            </a>
+            <a href="./category.html" class="w-1/4 text-9px text-center">
+                <svg class="mx-auto mb-4px" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Iconly/Light-Outline/Category">
+                        <g id="Category">
+                            <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 3.5C3.5 3.5 3.5 3.708 3.5 6.25V6.275C3.5 7.382 3.5 8.182 3.771 8.52C4.036 8.848 4.823 9 6.25 9C7.677 9 8.464 8.847 8.729 8.519C9 8.182 9 7.382 9 6.274C9 3.708 9 3.5 6.25 3.5ZM6.25 10.5C4.564 10.5 3.299 10.323 2.604 9.46C2 8.711 2 7.689 2 6.275L2.75 6.25H2C2 3.38 2.181 2 6.25 2C10.319 2 10.5 3.38 10.5 6.25C10.5 7.688 10.5 8.711 9.896 9.46C9.201 10.323 7.936 10.5 6.25 10.5Z"
+                                fill="currentColor" fill-opacity="0.5" />
+                            <path id="Fill 3" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.25 3.5C14.5 3.5 14.5 3.708 14.5 6.25V6.275C14.5 7.382 14.5 8.182 14.771 8.52C15.036 8.848 15.823 9 17.25 9C18.677 9 19.464 8.847 19.729 8.519C20 8.182 20 7.382 20 6.274C20 3.708 20 3.5 17.25 3.5ZM17.25 10.5C15.564 10.5 14.299 10.323 13.604 9.46C13 8.711 13 7.689 13 6.275L13.75 6.25H13C13 3.38 13.181 2 17.25 2C21.319 2 21.5 3.38 21.5 6.25C21.5 7.688 21.5 8.711 20.896 9.46C20.201 10.323 18.936 10.5 17.25 10.5Z"
+                                fill="currentColor" fill-opacity="0.5" />
+                            <path id="Fill 5" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 14.5C3.5 14.5 3.5 14.708 3.5 17.25V17.275C3.5 18.382 3.5 19.182 3.771 19.52C4.036 19.848 4.823 20 6.25 20C7.677 20 8.464 19.847 8.729 19.519C9 19.182 9 18.382 9 17.274C9 14.708 9 14.5 6.25 14.5ZM6.25 21.5C4.564 21.5 3.299 21.323 2.604 20.46C2 19.711 2 18.689 2 17.275L2.75 17.25H2C2 14.38 2.181 13 6.25 13C10.319 13 10.5 14.38 10.5 17.25C10.5 18.688 10.5 19.711 9.896 20.46C9.201 21.323 7.936 21.5 6.25 21.5Z"
+                                fill="currentColor" fill-opacity="0.5" />
+                            <path id="Fill 7" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.25 14.5C14.5 14.5 14.5 14.708 14.5 17.25V17.275C14.5 18.382 14.5 19.182 14.771 19.52C15.036 19.848 15.823 20 17.25 20C18.677 20 19.464 19.847 19.729 19.519C20 19.182 20 18.382 20 17.274C20 14.708 20 14.5 17.25 14.5ZM17.25 21.5C15.564 21.5 14.299 21.323 13.604 20.46C13 19.711 13 18.689 13 17.275L13.75 17.25H13C13 14.38 13.181 13 17.25 13C21.319 13 21.5 14.38 21.5 17.25C21.5 18.688 21.5 19.711 20.896 20.46C20.201 21.323 18.936 21.5 17.25 21.5Z"
+                                fill="currentColor" fill-opacity="0.5" />
+                        </g>
+                    </g>
+                </svg>
+                <span class="leading-12px">Category</span>
+            </a>
+            <a href="./cart.html" class="w-1/4 text-9px text-color-d17842 text-center">
+                <svg class="mx-auto mb-4px" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask012121" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="6" width="20" height="17">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6.54004H21.5859V22.7216H2V6.54004Z" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask012121)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.7155 8.04004C6.2745 8.04004 4.8005 8.21804 4.3775 10.502L3.6055 16.502C3.3545 18.185 3.5485 19.403 4.1835 20.14C4.8105 20.868 5.9325 21.222 7.6125 21.222H15.9605C17.0085 21.222 18.4395 21.013 19.3035 20.015C19.9895 19.224 20.2255 18.046 20.0055 16.513L19.2265 10.461C18.8945 8.97004 18.0185 8.04004 16.8945 8.04004H6.7155ZM15.9605 22.722H7.6125C5.4695 22.722 3.9765 22.197 3.0475 21.118C2.1145 20.036 1.8025 18.413 2.1205 16.295L2.8965 10.269C3.4065 7.50604 5.2715 6.54004 6.7155 6.54004H16.8945C18.3445 6.54004 20.1075 7.50304 20.7025 10.204L21.4915 16.311C21.7745 18.282 21.4205 19.863 20.4375 20.997C19.4595 22.125 17.9115 22.722 15.9605 22.722Z" fill="#D17842"/>
+                    </g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0978 7.82024C15.6838 7.82024 15.3478 7.48424 15.3478 7.07024C15.3478 5.10124 13.7458 3.50024 11.7778 3.50024H11.7628C10.8218 3.50024 9.90481 3.87924 9.23981 4.54024C8.57181 5.20524 8.18881 6.12824 8.18881 7.07024C8.18881 7.48424 7.85281 7.82024 7.43881 7.82024C7.02481 7.82024 6.68881 7.48424 6.68881 7.07024C6.68881 5.73124 7.23281 4.42224 8.18081 3.47724C9.12581 2.53824 10.4288 2.00024 11.7598 2.00024H11.7808C14.5738 2.00024 16.8478 4.27424 16.8478 7.07024C16.8478 7.48424 16.5118 7.82024 16.0978 7.82024Z" fill="#D17842"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7433 12.3241H14.6973C14.2833 12.3241 13.9473 11.9881 13.9473 11.5741C13.9473 11.1601 14.2833 10.8241 14.6973 10.8241C15.1113 10.8241 15.4703 11.1601 15.4703 11.5741C15.4703 11.9881 15.1573 12.3241 14.7433 12.3241Z" fill="#D17842"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.91219 12.3241H8.86719C8.45319 12.3241 8.11719 11.9881 8.11719 11.5741C8.11719 11.1601 8.45319 10.8241 8.86719 10.8241C9.28119 10.8241 9.64019 11.1601 9.64019 11.5741C9.64019 11.9881 9.32619 12.3241 8.91219 12.3241Z" fill="#D17842"/>
+                </svg>
+                <span class="leading-12px">Cart</span>
+            </a>
+            <a href="./profile.html" class="w-1/4 text-9px text-center">
+                <svg class="mx-auto mb-4px" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Iconly/Light-Outline/Profile">
+                        <g id="Profile">
+                            <g id="Group 3">
+                                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="4" y="14" width="16"
+                                    height="8">
+                                    <path id="Clip 2" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4 14.4961H19.8399V21.8701H4V14.4961Z" fill="currentColor" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11.9209 15.9961C7.6599 15.9961 5.4999 16.7281 5.4999 18.1731C5.4999 19.6311 7.6599 20.3701 11.9209 20.3701C16.1809 20.3701 18.3399 19.6381 18.3399 18.1931C18.3399 16.7351 16.1809 15.9961 11.9209 15.9961ZM11.9209 21.8701C9.9619 21.8701 3.9999 21.8701 3.9999 18.1731C3.9999 14.8771 8.5209 14.4961 11.9209 14.4961C13.8799 14.4961 19.8399 14.4961 19.8399 18.1931C19.8399 21.4891 15.3199 21.8701 11.9209 21.8701Z"
+                                        fill="currentColor" fill-opacity="0.5" />
+                                </g>
+                            </g>
+                            <g id="Group 6">
+                                <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="6" y="2" width="12"
+                                    height="11">
+                                    <path id="Clip 5" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.60987 2.00011H17.2299V12.6187H6.60987V2.00011Z" fill="currentColor" />
+                                </mask>
+                                <g mask="url(#mask1)">
+                                    <path id="Fill 4" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11.9209 3.42771C9.7799 3.42771 8.0379 5.16871 8.0379 7.30971C8.0309 9.44371 9.7599 11.1837 11.8919 11.1917L11.9209 11.9057V11.1917C14.0609 11.1917 15.8019 9.44971 15.8019 7.30971C15.8019 5.16871 14.0609 3.42771 11.9209 3.42771ZM11.9209 12.6187H11.8889C8.9669 12.6097 6.5999 10.2267 6.6099 7.30671C6.6099 4.38171 8.9919 1.99971 11.9209 1.99971C14.8489 1.99971 17.2299 4.38171 17.2299 7.30971C17.2299 10.2377 14.8489 12.6187 11.9209 12.6187Z"
+                                        fill="currentColor" fill-opacity="0.5" />
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <span class="leading-12px">Account</span>
+            </a>
+        </div>
+    </nav>
+    <!-- SWIPER JS -->
+    <script src="../../styles/swiper/swiper-bundle.min.js"></script>
+    <!-- CART JS -->
+    <script src="../../styles/js/cart.js"></script>
+
+</body>
+
+</html>
